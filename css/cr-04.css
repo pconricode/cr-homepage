@@ -1,0 +1,49 @@
+.cr-04 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+}
+
+.cr-04 div {
+    position: relative;
+}
+
+.cr-04-img {
+    width: 100%;
+    height: auto;
+}
+
+.cr-04-img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    white-space: nowrap;
+}
+
+.cr-04-btn.cr-04-btn-position {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 0px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cr-04-btn.cr-04-btn-position:hover {
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-04 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

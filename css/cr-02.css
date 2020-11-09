@@ -1,0 +1,19 @@
+.cr-02-banner {
+    width: 100%;
+}
+
+.cr-02-mobile-banner {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-02-banner {
+        display: none;
+    }
+
+    .cr-02-mobile-banner {
+        display: block;
+        width: 100%;
+    }
+}
