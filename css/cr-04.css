@@ -4,25 +4,35 @@
     grid-gap: 2px;
 }
 
-.cr-04 div {
+.cr-04-square {
     position: relative;
-}
-
-.cr-04-img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     height: auto;
 }
 
-.cr-04-img-text {
+.cr-04-txt-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    white-space: nowrap;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 
-.cr-04-btn.cr-04-btn-position {
+.cr-04-img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+
+.cr-04-btn {
     background-color: white;
     color: black;
     font-weight: 800;
@@ -30,13 +40,10 @@
     border: 2px solid black;
     padding: 15px;
     border-radius: 0px;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 
-.cr-04-btn.cr-04-btn-position:hover {
+.cr-04-btn:hover {
     background-color: black;
     color: white;
 }
