@@ -1,4 +1,4 @@
-/*****  Styling for Block-Element: "five-product-bar-womens-outerwear"  *****/
+/*****  Styling for Block-Element: cr-06  *****/
 
 .cr-06 {
     display: grid;
@@ -48,6 +48,16 @@ h3.cr-06-brand {
     text-align: center;
     color: #81907b;
     font-size: .9em;
+}
+
+.shop-now-btn {
+    display: none;
+    background-color: green;
+    color: white;
+}
+
+a:hover+button {
+    opacity: .5;
 }
 
 
@@ -109,7 +119,7 @@ h3.cr-06-brand {
 }
 
 
-/*****  End Styling for Block-Element: "five-product-bar-womens-outerwear"  *****/
+/*****  End Styling for Block-Element: cr-06  *****/
 
 
 

@@ -1,0 +1,173 @@
+
+/*****  Styling for Block-Element: "me-experience-banner Carhartt Winter Clothing"  *****/
+
+.cr-me {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.cr-me-badge {
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    padding: 0 15px;
+    top: 0%;
+    right: 0%;
+    font-family: "montserratregular",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr;
+    align-items: center;
+    width: 32%;
+    height: 100%;
+    backdrop-filter: blur(6px);
+}
+
+img.cr-me-img {
+    display: block;
+}
+
+img.cr-me-badge-img {
+    display: block;
+}
+
+img.cr-me-img {
+    width: 100%;
+}
+
+.cr-me-badge-img {
+    width: 65%;
+    margin: auto;
+}
+
+.cr-me-h3 {
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 85%;
+    color: #CDD8DE;
+    white-space: nowrap;
+}
+
+.cr-me-h4 {
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 55%;
+    color: #CDD8DE;
+    white-space: nowrap;
+}
+
+.cr-me-btn {
+    background-color:#FCB811;
+    color: black;
+    padding: 10px;
+    border: 0px;
+    font-weight: 800;
+    width: 35%;
+    white-space: nowrap;
+}
+
+.cr-me-badge-img-div {
+    grid-row: 2/3;
+    margin-bottom: 15px;
+}
+
+.cr-me-h3-div {
+    grid-row: 3/4;
+}
+
+.cr-me-h4-div {
+    grid-row: 4/5;
+    align-self: baseline;
+}
+
+.cr-me-btn-div {
+    grid-row: 5/6;
+    align-self: baseline;
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+    .cr-me-btn-div {
+        margin-top: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .cr-me-h3 {
+        font-size: 75%;
+    }
+    
+    .cr-me-h4 {
+        font-size: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .cr-me-badge {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .cr-me-h3-div {
+        display: none;
+    }
+
+    .cr-me-h4-div {
+        display: none;
+    }
+
+    .cr-me-badge-img-div {
+        grid-row: 2/3;
+    }
+
+    .cr-me-btn-div {
+        grid-row: 3/4;
+    }
+
+    .cr-me-btn {
+        width: 50%;
+    }
+
+    .cr-me-badge-img {
+        width: 90%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .cr-me-btn {
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .cr-me-btn-div {
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .cr-me-badge-img {
+        width: 105%;
+    }
+
+    .cr-me-btn {
+        width: auto;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+/*****  End Styling for Block-Element: "me-experience-banner Carhartt Winter Clothing"  *****/

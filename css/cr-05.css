@@ -1,3 +1,5 @@
+/*****  Styling for Block-Element cr-05  *****/
+
 .cr-05 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -70,3 +72,5 @@ img {
         margin-top: 10px;
     }
 }
+
+/*****  End Styling for Block-Element cr-04  *****/
