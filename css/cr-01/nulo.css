@@ -1,0 +1,39 @@
+.cr-01-nulo-container {
+    position: relative;
+}
+
+.cr-01-nulo-container img {
+    width: 100%;
+    height: auto;
+}
+
+.cr-01-nulo-container .cr-01-nulo-btn {
+    position: absolute;
+    top: 73%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#F20807;
+    color:white;
+    font-size: 16px;
+    padding: 20px 30px;
+    border: 2px solid #F20807;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+.cr-01-nulo-container .cr-01-nulo-btn:hover {
+    color: black;
+    background-color:white;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 900px) {
+    .cr-01-nulo-container .cr-01-nulo-btn {
+        top: 73%;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
