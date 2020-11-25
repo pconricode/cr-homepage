@@ -1,0 +1,114 @@
+/*****  Styling for Block-Element: cr-06  *****/
+
+.cr-06 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    font-family: "montserratregular", Helvetica, Arial, sans-serif;
+    margin: 0px 20%;
+    grid-gap: 40px;
+    justify-items: center;
+}
+
+.cr-06-product {
+    padding: 20px;
+    justify-items: center;
+}
+
+.cr-06-img-div {
+    text-align: center;
+}
+
+img.cr-06-img {
+    max-width: 220px;
+    min-width: 220px;
+}
+
+.cr-06-text {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+a.cr-06-link {
+    text-decoration: none;
+    color: black;
+    max-width: fit-content;
+}
+
+a.cr-06-link:hover {
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3.cr-06-name {
+    font-size: .95em;
+    margin: 2px auto;
+    text-align: center;
+    width: 85%;
+    max-width: 220px;
+}
+
+h3.cr-06-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #81907b;
+    font-size: .9em;
+}
+
+.shop-now-btn {
+    display: none;
+    background-color: green;
+    color: white;
+}
+
+a:hover+button {
+    opacity: .5;
+}
+
+
+@media only screen and (max-width: 1650px) {
+    .cr-06 {
+        grid-gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .cr-06 {
+        grid-gap: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1415px) {
+    .cr-06 {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .cr-06 {
+        grid-gap: 0px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    img.cr-06-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-06 {
+        grid-template-columns: 1fr;
+    }
+
+    a.cr-06-link:hover {
+        box-shadow: 0 0 0 0;
+    }
+}
+
+
+
+/*****  End Styling for Block-Element: cr-06  *****/
+
