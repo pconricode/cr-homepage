@@ -18,7 +18,7 @@
     font-size: 2em;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     width: 32%;
     height: 100%;
@@ -36,19 +36,20 @@ img.cr-07-overlay-img {
 
 .cr-07-h2-div {
     width: 65%;
-    margin: auto;
+    margin: auto auto 0px;
     color: #CDD8DE;
-    grid-row: 2/3;
+    grid-row: 1/2;
 }
 
 .cr-07-01-h2 {
-    margin: 5px 0px;
+    margin: 45px 0px 0px;
+    font-size: 45px;
 }
 
 .cr-07-h3 {
     width: 100%;
     margin: 5px 0px;
-    font-size: 85%;
+    font-size: 25px;
     color: #CDD8DE;
 }
 
@@ -72,16 +73,16 @@ img.cr-07-overlay-img {
 }
 
 .cr-07-h3-div {
-    grid-row: 3/4;
+    grid-row: 2/3;
 }
 
 .cr-07-h4-div {
-    grid-row: 4/5;
+    grid-row: 3/4;
     align-self: baseline;
 }
 
 .cr-07-btn-div {
-    grid-row: 5/6;
+    grid-row: 3/4;
     align-self: baseline;
 }
 
@@ -141,54 +142,30 @@ img.cr-07-overlay-img {
 
 
 
-@media only screen and (max-width: 1350px) {
-    .cr-07-btn-div {
-        margin-top: 15px;
+@media only screen and (max-width: 1400px) {
+    .cr-07-01-h2 {
+        font-size: 30px;
+    }
+
+    .cr-07-h3 {
+        font-size: 20px;
     }
 }
 
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1040px) {
     .cr-07-h3 {
-        font-size: 75%;
+        font-size: 17px;
     }
-    
-    .cr-07-h4 {
-        font-size: 50%;
+
+    .cr-07-01-h2 {
+        font-size: 25px;
     }
 }
 
 
 @media only screen and (max-width: 850px) {
-    /* .cr-07-overlay {
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-
-    .cr-07-h3-div {
-        display: none;
-    }
-
-    .cr-07-h4-div {
-        display: none;
-    }
-
-    .cr-07-overlay-img-div {
-        grid-row: 2/3;
-    }
-
-    .cr-07-btn-div {
-        grid-row: 3/4;
-    }
-
-    .cr-07-btn {
-        width: 50%;
-    }
-
-    .cr-07-overlay-img {
-        width: 90%;
-    } */
-
     .cr-07-mobile {
         display: block;
     }
@@ -204,7 +181,6 @@ img.cr-07-overlay-img {
     .cr-07-overlay {
         display: none;
     }
-
 }
 
 

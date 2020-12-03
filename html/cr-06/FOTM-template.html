@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Button on Hover</title>
+
+<style>
+
+    div {
+    display: none;
+}
+    
+a:hover + div {
+    display: block;
+}
+
+.cr-06-product-container {
+    position: relative;
+}
+
+.cr-06-product-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+</style>
+
+<a href="" class="cr-06-product-container"><img src="../../images/wireframe/carousel-img.png" alt=""></a>
+<div>
+    <button class="cr-06-product-btn">Shop Now</button>
+</div>
+  
+</body>
+</html>
