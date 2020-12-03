@@ -1,76 +1,71 @@
-/*****  Styling for Block-Element cr-05  *****/
 
 .cr-05 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    font-family: "montserratregular",Helvetica,Arial,sans-serif;
 }
 
-.cr-05-txt-panel {
-    padding: 0 20%;
+.cr-05 img {
+    width: 100%;
+    display: block;
+}
+
+.cr-05-txt {
+    padding: 0px 20%;
     align-self: center;
 }
 
-img {
-    width: 100%;
+.cr-05-txt h2 {
+    font-size: 30px;
+    font-family: "montserratregular", Arial, Helvetica, sans-serif;
+    margin: 0px 0px 10px;
 }
 
-.cr-05-txt-panel-h2 {
-    margin: 0px 0px 10px 0px;
-}
-
-.cr-05-txt-panel-txt {
+.cr-05-txt p {
     text-align: justify;
 }
 
-.cr-05-btn {
-    background-color: white;
-    color: black;
+.cr-05-txt button {
+    background-color: #fff;
+    color: #000;
     font-weight: 800;
     font-size: 14px;
-    border: 2px solid black;
+    border: 2px solid #000;
     padding: 15px;
-    border-radius: 0px;
-    white-space: nowrap;  
+    border-radius: 0;
+    white-space: nowrap;
     margin-top: 10px;
 }
 
-.cr-05-btn:hover {
-    background-color: black;
-    color: white;
-}
-
-@media only screen and (max-width: 1500px) {
-    .cr-05-txt-panel {
-        padding: 0 15%;
-    }
+.cr-05-txt button:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 
-@media only screen and (max-width: 1200px) {
-    .cr-05-txt-panel {
-        padding: 0 10%;
-    }
-}
-
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1350px) {
     .cr-05 {
         grid-template-columns: 2fr 1fr;
     }
+
+    .cr-05-txt {
+        padding: 0px 5%;
+    }
 }
 
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .cr-05 {
         grid-template-columns: 1fr;
     }
 
-    .cr-05-txt-panel {
-        padding: 0 0;
-        margin-top: 10px;
+    .cr-05-txt {
+        grid-row: 2/3;
+        padding: 20px 5px 0px;
+        text-align: center;
+    }
+
+    .cr-05-txt h2 {
+        margin-top: 0px;
     }
 }
-
-/*****  End Styling for Block-Element cr-04  *****/
