@@ -1,0 +1,54 @@
+.cr-gift-guide .cr-mobile {
+    display: none;
+}
+
+.cr-gift-guide img {
+    width: 100%;
+    height: auto;
+}
+
+.cr-overlap-1 {
+    margin-top: -70px;
+}
+
+.cr-overlap-2 {
+    margin-top: -25px;
+}
+
+.cr-gift-guide .cr-06 {
+    margin: 20px 0px; 
+}
+
+
+@media only screen and (max-width: 1450px) {
+    .cr-overlap-1 {
+        margin-top: -52px;
+    }
+}
+
+
+@media only screen and (max-width: 1220px) {
+    .cr-overlap-1 {
+        margin-top: -45px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .cr-overlap-1 {
+        margin-top: -37px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cr-gift-guide .cr-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .cr-gift-guide .cr-desktop {
+        display: none;
+        width: 100%;
+    }
+}

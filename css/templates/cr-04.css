@@ -1,40 +1,29 @@
-/*****  Styling for Block-Element cr-04  *****/
 
 .cr-04 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2px;
+    column-gap: 1px;
 }
 
-.cr-04-square {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.cr-04 img {
+    display: block;
     width: 100%;
     height: auto;
 }
 
-.cr-04-txt-box {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+.cr-04-box {
+    position: relative;
+}
+
+.cr-04-box div {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: auto;
+    transform: translate( -50%, -50% );
     text-align: center;
 }
 
-.cr-04-img {
-    display: block;
-    position: relative;
-    width: 100%;
-}
-
-
-.cr-04-btn {
+.cr-04 button {
     background-color: white;
     color: black;
     font-weight: 800;
@@ -45,17 +34,16 @@
     white-space: nowrap;
 }
 
-.cr-04-btn:hover {
+.cr-04 button:hover {
     background-color: black;
     color: white;
 }
 
 
+
 @media only screen and (max-width: 768px) {
     .cr-04 {
         grid-template-columns: repeat(1, 1fr);
+        row-gap: 1px;
     }
 }
-
-
-/*****  End Styling for Block-Element cr-04  *****/
